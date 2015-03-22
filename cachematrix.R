@@ -9,6 +9,11 @@
 ## Write a short comment describing this function
 #setwd("~/GitHub/ploncker/ProgrammingAssignment2")
 
+## to use this function an example is given below
+## create a matrix x<-matrix(c(1,2,2,1), nrow=2, ncol=2)
+## pass to makeCacheMatrix, and assign a new variable y<-makeCacheMatrix(x)
+## then solve y ie, z<-cacheSolve(y)
+
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
